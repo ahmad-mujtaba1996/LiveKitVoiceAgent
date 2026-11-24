@@ -7,3 +7,4 @@ if __name__ == "__main__":
     query = "What is the 5g coverage in Bengaluru?"
     result = lauki_agent.invoke({"messages": [{"role": "user", "content": query}]})
     print("Agent Response:", result["messages"][-1].content)
+    print("Hello Word")
